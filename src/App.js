@@ -14,7 +14,7 @@ export  default function App () {
   <Header />
     <Routes>
       <Route path="/" element={<Cards />} />
-      <Route path="/cart" element={<CardsDetail />} />
+      <Route path="/cart/:id" element={<CardsDetail />} />
     </Routes>
 </BrowserRouter>
 </div>
